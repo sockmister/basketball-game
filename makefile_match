@@ -1,0 +1,4 @@
+CC = mpicc
+
+match: match.c
+	$(CC) match.c -o match -lrt
